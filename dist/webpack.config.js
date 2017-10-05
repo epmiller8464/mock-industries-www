@@ -6,7 +6,7 @@ var webpack = require('webpack');
 module.exports = {
   entry: './lib/app.js',
   output: {
-    filename: './public/javascripts/app.bundle.js'
+    filename: './public/js/app.bundle.js'
   },
   module: {
     loaders: [{

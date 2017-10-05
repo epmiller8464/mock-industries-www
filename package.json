@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "babel": "babel --presets es2015 lib/app.js -o public/javascripts/app.bundle.js",
+    "build": "webpack",
     "start": "node ./bin/www"
   },
   "dependencies": {
